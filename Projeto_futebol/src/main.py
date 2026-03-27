@@ -1,6 +1,8 @@
 # Importações básicas
 import os
 
+from dotenv import load_dotenv
+
 # Loader de documentos PDF
 from langchain_community.document_loaders import PyPDFLoader
 
@@ -18,6 +20,9 @@ from langchain_openai import ChatOpenAI
 
 # Cadeia RAG
 from langchain.chains import RetrievalQA
+
+# Carregamento das variáveis de ambiente
+load_dotenv()
 
 # Caminho do PDF
 CAMINHO_PDF = os.path.join(os.getcwd(), "data", "regras_futebol.pdf")
@@ -37,7 +42,7 @@ print(len(chuncks))
 # Embeddings
 embeddings = OpenAIEmbeddings(
     model="text-embedding-3-small",
-    openai_api_key="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"
+    openai_api_key=os.getenv("CHAVE_API")
 )
 
 # Banco vetorial

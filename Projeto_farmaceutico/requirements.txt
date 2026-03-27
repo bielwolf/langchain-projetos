@@ -7,7 +7,7 @@ anyio==4.13.0
 async-timeout==4.0.3
 attrs==26.1.0
 bcrypt==5.0.0
-build==1.3.0
+build==1.4.2
 certifi==2026.2.25
 charset-normalizer==3.4.6
 chromadb==1.5.5
@@ -40,11 +40,11 @@ jsonpointer==3.1.1
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
 kubernetes==35.0.0
-langchain==0.1.20
-langchain-community==0.0.38
-langchain-core==0.1.53
-langchain-openai==0.1.7
-langchain-text-splitters==0.0.2
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-core==0.2.43
+langchain-openai==0.1.25
+langchain-text-splitters==0.2.4
 langsmith==0.1.147
 markdown-it-py==4.0.0
 marshmallow==3.26.2
@@ -65,7 +65,7 @@ opentelemetry-sdk==1.40.0
 opentelemetry-semantic-conventions==0.61b0
 orjson==3.11.7
 overrides==7.7.0
-packaging==23.2
+packaging==24.2
 propcache==0.4.1
 protobuf==6.33.6
 pybase64==1.4.3
@@ -73,7 +73,6 @@ pydantic==2.12.5
 pydantic-settings==2.13.1
 pydantic_core==2.41.5
 Pygments==2.19.2
-pypdf==6.9.2
 PyPika==0.51.1
 pyproject_hooks==1.2.0
 python-dateutil==2.9.0.post0

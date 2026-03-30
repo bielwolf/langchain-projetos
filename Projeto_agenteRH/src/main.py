@@ -21,7 +21,7 @@ from langchain_core.prompts import PromptTemplate
 
 
 # Diretório do banco vetorial
-PERSIST_DIRECTORY = "../chroma_rh"
+PERSIST_DIRECTORY = "./chroma_rh"
 
 # Modelo de embedding
 EMBEDDING_MODEL = "text-embedding-3-small"
